@@ -1,0 +1,319 @@
+body {
+  font-family: 'Marcellus', serif;
+  overflow: scroll;
+}
+
+header {
+  height: 200px;
+  background-color: #061F3A;
+  color: lightgray;  
+}
+
+header h2 {
+  float: right;
+  margin: 1% 1% 0 0;
+  color: #A22E45;
+  font-size: 20px;
+  font-weight: normal;
+  vertical-align: top;
+}
+
+header h2:hover {
+  background-color: #FAD448;
+  border-radius: 20px;
+}
+
+.arrow {
+  vertical-align: text-bottom;
+  margin-left: 6px;
+}
+
+header img {
+  height: 20px;
+  width: 20px;
+}
+
+ul {
+  margin: 0 0 0 1%;
+  padding: 150px 0px;
+  list-style-type: none;  
+}
+
+li {
+  display: inline;
+  padding: 1% 2%;
+  vertical-align: top;
+  font-size: 20px;
+}
+
+.active {
+  color: #FAD448; 
+}
+
+li:hover {
+  color: #FAD448;
+}
+
+li img {
+  margin-right: 4px;
+}
+
+.logo {
+  float: right;
+  clear: right;
+  margin: 1%;
+  height: 110px;
+  width: 142px;
+}
+
+main {
+  height: 1000px;
+  box-sizing: border-box;
+  background-color: #EFEFEF;
+  overflow: scroll;
+}
+
+section {
+  margin: 0 2%;
+  height: 80%;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 0 0 0 2%;
+  padding: 1%;
+  color: #D13651;
+}
+
+article {
+  margin: 2% 1%;
+  height: 40%;
+  width: 22%;
+  min-width: 295px;
+  min-height: 400px;
+  max-height: 450px;
+  display: inline-block;
+  box-shadow: 4px 6px 4px black;
+  background-color: #FFFFFF;
+  transition-delay: .1s;
+  transition-duration: 1s; 
+} 
+
+article:hover {
+  transition-delay: .1s;
+  transform: rotate3d(0, 1, 0, 360deg);
+  transition-duration: 1s;
+}
+
+article h2 {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+article time {
+  font-size: 14px;
+  color: gray;
+}
+
+article a {
+  font-size: 12px;
+}
+
+article h3 {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+article p {
+  font-size: 20px;
+}
+
+article h4 {
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.banner {
+  height: 33%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #FFFFFF;
+}
+
+.banner h3{
+  z-index: 1;
+}
+
+.banner h4 {
+  z-index: 1;
+}
+
+.icon {
+  position: relative;
+  top: -125px;
+  left: 3px;
+  height: 36px;
+  width: 36px;
+  margin: 3% 5%;
+  z-index: 1;
+  background-image: url(icons/next.svg);
+  background-size: cover;
+}
+
+.haze {
+  position: relative;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  background-color: gray;
+  opacity: .5;
+  z-index: 0;
+}
+
+.views {
+  position: relative;
+  top: -125px;
+  float: right;
+  margin: 3% 5%;
+}
+
+.views h3 {
+  margin: 2px;
+}
+
+.views h4 {
+  margin: 2px;
+}
+
+.card-content {
+  position: relative;
+  top: -70px;
+  height: 60%;
+  width: 90%;
+  margin: 4%;
+  display: table;
+}
+
+.card-content h2 {
+  margin: 1% 0 0 0;
+}
+
+.card-content a {
+  display: block;
+  background-color: lightgray;
+  padding: 3%;
+  margin: 2% 0;
+  text-decoration: none;
+  color: gray;
+}
+
+.card-content h3 {
+  margin: 6% 0 0 0;
+}
+
+.card-content p {
+  margin: 1% 0 3% 0;
+  color: #A22E45;
+}
+
+.card-content h4 {
+  margin: 1%;
+  color: #A22E45;
+}
+
+.banner {
+  transition-delay: .5s;
+  transition-delay: .5s;
+  background-color: transparent;
+  background-size: cover;
+}
+
+.sorge {
+  background-image: url(images/sorge.jpg);
+}
+
+.sorge:hover {
+  background-image: url(images/sorgebkgrd.gif);
+  }
+
+.zink {
+  background-image: url(images/zink1.jpg);
+}
+
+.zink:hover {
+  background-image: url(images/zinkgif.jpg);
+}
+
+.semenuk {
+  background-image: url(images/semenuk.jpg);
+}
+
+.semenuk:hover {
+  background-image: url(images/semenukgif.gif); 
+}
+
+.berrecloth {
+  background-image: url(images/berrecloth.jpg);
+}
+
+.berrecloth:hover {
+  background-image: url(images/clawgif.gif  );
+}
+
+.mccaul {
+  background-image: url(images/mccaul.jpg);
+}
+
+.mccaul:hover {
+  background-image: url(images/mccaulgif.gif);
+}
+
+.lacondeguy {
+  background-image: url(images/lacondeguy.jpg); 
+}
+
+.lacondeguy:hover {
+  background-image: url(images/lacongif.gif);
+}
+
+.strait {
+  background-image: url(images/strait.jpg);
+}
+
+.strait:hover {
+  background-image: url(images/straitgif.gif);
+}
+
+.steenbergen {
+  background-image: url(images/van-steenbergen.jpg);
+}
+
+.steenbergen:hover {
+  background-image: url(images/vangif.gif);
+}
+
+
+@media screen and (max-width: 440px) {
+  header h2 {
+    font-size: 13px;
+  }
+
+  header img{
+    height: 10px;
+    width: 10px;
+  }
+
+  .logo {
+    float: none;
+    margin-left: 94px;
+  }
+
+  ul{
+    margin: 0 0 0 10%;
+    padding: 28px 0;
+  }
+  li {
+    font-size: 16px;
+  }
+}
