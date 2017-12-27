@@ -9,4 +9,4 @@
 
 ## My design
 
-![My design](images/pm-com-challenge-2-screenshot.png "My comp design")
+![My design](images/pm-comp-challenge-2-screenshot.png "My comp design")
